@@ -1,0 +1,1055 @@
+2015/04/15 18:11:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/model/index".' in C:\wamp\www\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#1 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/quantislabs/index.php?r=gii/model/index
+---
+2015/04/15 18:11:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\wamp\www\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/quantislabs/index.php?r=gii
+---
+2015/04/15 18:50:55 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii1\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('netSalary')
+#4 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/netSalary')
+#5 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/netSalary
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=site/contact
+---
+2015/04/15 18:51:06 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii1\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('netSalary')
+#4 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/netSalary/...')
+#5 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/netSalary/salary=100
+---
+2015/04/15 18:51:24 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii1\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('netSalary')
+#4 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/netSalary')
+#5 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/netSalary
+---
+2015/04/15 18:58:18 [error] [php] number_format() expects parameter 1 to be double, string given (C:\wamp\www\quantislabs\protected\views\site\netsalary.php:6)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\wamp\www\yii1\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\wamp\www\yii1\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(120): SiteController->render()
+#4 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionNetSalary()
+#5 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/netSalary
+in C:\wamp\www\quantislabs\protected\views\site\netsalary.php (6)
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (120)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/15 19:11:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "orderedSalaries".' in C:\wamp\www\yii1\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(270): CController->missingAction('orderedSalaries')
+#1 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('orderedSalaries')
+#2 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/orderedSal...')
+#3 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/orderedSalaries
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=site/netSalary
+---
+2015/04/15 19:12:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "orderedSalaries".' in C:\wamp\www\yii1\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(270): CController->missingAction('orderedSalaries')
+#1 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('orderedSalaries')
+#2 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/orderedSal...')
+#3 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/orderedSalaries
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=site/netSalary
+---
+2015/04/15 19:48:16 [error] [php] Array to string conversion (C:\wamp\www\quantislabs\protected\views\site\organizedarrays.php:11)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(150): SiteController->render()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionArrayOperations()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/arrayOperations
+in C:\wamp\www\quantislabs\protected\views\site\organizedarrays.php (11)
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (150)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/15 19:48:35 [error] [php] Array to string conversion (C:\wamp\www\quantislabs\protected\views\site\organizedarrays.php:11)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(150): SiteController->render()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionArrayOperations()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/arrayOperations
+in C:\wamp\www\quantislabs\protected\views\site\organizedarrays.php (11)
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (150)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/15 19:48:37 [error] [php] Array to string conversion (C:\wamp\www\quantislabs\protected\views\site\organizedarrays.php:11)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(150): SiteController->render()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionArrayOperations()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/arrayOperations
+in C:\wamp\www\quantislabs\protected\views\site\organizedarrays.php (11)
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (150)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/15 20:58:25 [error] [php] include(CitySearchForm.php): failed to open stream: No such file or directory (C:\wamp\www\yii1\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(164): spl_autoload_call()
+#1 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionCitySearch()
+#2 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/citySearch
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (164)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/15 21:02:53 [error] [exception.CException] exception 'CException' with message 'Property "CJuiAutoComplete.city_name" is not defined.' in C:\wamp\www\yii1\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CWidgetFactory.php(161): CComponent->__set('city_name', 'city_name')
+#1 C:\wamp\www\yii1\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'zii.widgets.jui...', Array)
+#2 C:\wamp\www\yii1\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\wamp\www\quantislabs\protected\views\site\citysearch.php(25): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\wamp\www\yii1\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\qua...')
+#5 C:\wamp\www\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\qua...', Array, true)
+#6 C:\wamp\www\yii1\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\qua...', Array, true)
+#7 C:\wamp\www\yii1\framework\web\CController.php(782): CController->renderPartial('citysearch', Array, true)
+#8 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(166): CController->render('citysearch', Array)
+#9 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionCitySearch()
+#10 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('citySearch')
+#14 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/citySearch')
+#15 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/citySearch
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=site/concatenate
+---
+2015/04/15 21:10:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'content' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_cities` `t` WHERE content LIKE :term.
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (177)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/15 21:10:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'content' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_cities` `t` WHERE content LIKE :term' in C:\wamp\www\yii1\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii1\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\wamp\www\yii1\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(177): CActiveRecord->findAll(Object(CDbCriteria))
+#4 [internal function]: SiteController->actionSearchCityAjax('b')
+#5 C:\wamp\www\yii1\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('searchCityAjax')
+#11 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/searchCity...')
+#12 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/searchCityAjax&term=b
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=site/citySearch
+---
+2015/04/15 21:20:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{cities}} WHERE city_name LIKE '%s%'' at line 1. The SQL statement executed was: SELECT city_name FROM {{cities}} WHERE city_name LIKE :city_name.
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (175)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/15 21:20:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{cities}} WHERE city_name LIKE '%s%'' at line 1. The SQL statement executed was: SELECT city_name FROM {{cities}} WHERE city_name LIKE :city_name' in C:\wamp\www\yii1\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\CDbCommand.php(455): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(175): CDbCommand->queryColumn()
+#2 [internal function]: SiteController->actionSearchCityAjax('s')
+#3 C:\wamp\www\yii1\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#4 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#5 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('searchCityAjax')
+#9 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/searchCity...')
+#10 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/searchCityAjax&term=s
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=site/citySearch
+---
+2015/04/15 21:20:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{cities}} WHERE city_name LIKE '%so%'' at line 1. The SQL statement executed was: SELECT city_name FROM {{cities}} WHERE city_name LIKE :city_name.
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (175)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/15 21:20:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{cities}} WHERE city_name LIKE '%so%'' at line 1. The SQL statement executed was: SELECT city_name FROM {{cities}} WHERE city_name LIKE :city_name' in C:\wamp\www\yii1\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\CDbCommand.php(455): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(175): CDbCommand->queryColumn()
+#2 [internal function]: SiteController->actionSearchCityAjax('so')
+#3 C:\wamp\www\yii1\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#4 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#5 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('searchCityAjax')
+#9 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/searchCity...')
+#10 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/searchCityAjax&term=so
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=site/citySearch
+---
+2015/04/15 21:20:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{cities}} WHERE city_name LIKE '%sop%'' at line 1. The SQL statement executed was: SELECT city_name FROM {{cities}} WHERE city_name LIKE :city_name.
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (175)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/15 21:20:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{cities}} WHERE city_name LIKE '%sop%'' at line 1. The SQL statement executed was: SELECT city_name FROM {{cities}} WHERE city_name LIKE :city_name' in C:\wamp\www\yii1\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\CDbCommand.php(455): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(175): CDbCommand->queryColumn()
+#2 [internal function]: SiteController->actionSearchCityAjax('sop')
+#3 C:\wamp\www\yii1\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#4 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#5 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('searchCityAjax')
+#9 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/searchCity...')
+#10 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/searchCityAjax&term=sop
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=site/citySearch
+---
+2015/04/16 18:48:41 [error] [php] Array to string conversion (C:\wamp\www\quantislabs\protected\views\site\citysearch.php:26)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(181): SiteController->render()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionCitySearch()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/citySearch
+in C:\wamp\www\quantislabs\protected\views\site\citysearch.php (26)
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (181)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 19:40:27 [error] [php] Undefined variable: q (C:\wamp\www\quantislabs\protected\controllers\SiteController.php:173)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/citySearch
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (173)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 19:40:37 [error] [php] Undefined index: term (C:\wamp\www\quantislabs\protected\controllers\SiteController.php:174)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/citySearch
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (174)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 20:01:09 [error] [php] Undefined variable: cities (C:\wamp\www\quantislabs\protected\views\site\citysearch.php:39)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(218): SiteController->render()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionCitySearch()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/citySearch
+in C:\wamp\www\quantislabs\protected\views\site\citysearch.php (39)
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (218)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 20:01:45 [error] [php] Undefined variable: cities (C:\wamp\www\quantislabs\protected\views\site\citysearch.php:39)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(218): SiteController->render()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionCitySearch()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/citySearch
+in C:\wamp\www\quantislabs\protected\views\site\citysearch.php (39)
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (218)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 20:39:18 [error] [php] Undefined variable: station (C:\wamp\www\quantislabs\protected\views\stations\_form.php:32)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): StationsController->renderFile()
+#1 C:\wamp\www\quantislabs\protected\views\stations\update.php(21): StationsController->renderPartial()
+#2 C:\wamp\www\yii1\framework\web\CBaseController.php(126): require()
+#3 C:\wamp\www\yii1\framework\web\CBaseController.php(95): StationsController->renderInternal()
+#4 C:\wamp\www\yii1\framework\web\CController.php(869): StationsController->renderFile()
+#5 C:\wamp\www\yii1\framework\web\CController.php(782): StationsController->renderPartial()
+#6 C:\wamp\www\quantislabs\protected\controllers\StationsController.php(103): StationsController->render()
+#7 unknown(0): StationsController->actionUpdate()
+#8 C:\wamp\www\yii1\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#9 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\wamp\www\yii1\framework\web\filters\CFilterChain.php(133): StationsController->runAction()
+#12 C:\wamp\www\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\wamp\www\yii1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 C:\wamp\www\yii1\framework\web\filters\CInlineFilter.php(58): StationsController->filterAccessControl()
+#15 C:\wamp\www\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 C:\wamp\www\yii1\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\wamp\www\yii1\framework\web\CController.php(265): StationsController->runActionWithFilters()
+#18 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): StationsController->run()
+#19 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=stations/update&id=102
+in C:\wamp\www\quantislabs\protected\views\stations\_form.php (32)
+in C:\wamp\www\quantislabs\protected\views\stations\update.php (21)
+in C:\wamp\www\quantislabs\protected\controllers\StationsController.php (103)
+2015/04/16 20:39:22 [error] [php] Undefined variable: station (C:\wamp\www\quantislabs\protected\views\stations\_form.php:32)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): StationsController->renderFile()
+#1 C:\wamp\www\quantislabs\protected\views\stations\update.php(21): StationsController->renderPartial()
+#2 C:\wamp\www\yii1\framework\web\CBaseController.php(126): require()
+#3 C:\wamp\www\yii1\framework\web\CBaseController.php(95): StationsController->renderInternal()
+#4 C:\wamp\www\yii1\framework\web\CController.php(869): StationsController->renderFile()
+#5 C:\wamp\www\yii1\framework\web\CController.php(782): StationsController->renderPartial()
+#6 C:\wamp\www\quantislabs\protected\controllers\StationsController.php(103): StationsController->render()
+#7 unknown(0): StationsController->actionUpdate()
+#8 C:\wamp\www\yii1\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#9 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\wamp\www\yii1\framework\web\filters\CFilterChain.php(133): StationsController->runAction()
+#12 C:\wamp\www\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\wamp\www\yii1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 C:\wamp\www\yii1\framework\web\filters\CInlineFilter.php(58): StationsController->filterAccessControl()
+#15 C:\wamp\www\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 C:\wamp\www\yii1\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\wamp\www\yii1\framework\web\CController.php(265): StationsController->runActionWithFilters()
+#18 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): StationsController->run()
+#19 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=stations/update&id=102
+in C:\wamp\www\quantislabs\protected\views\stations\_form.php (32)
+in C:\wamp\www\quantislabs\protected\views\stations\update.php (21)
+in C:\wamp\www\quantislabs\protected\controllers\StationsController.php (103)
+2015/04/16 20:40:05 [error] [exception.CException] exception 'CException' with message 'Property "Stations.areas" is not defined.' in C:\wamp\www\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('areas')
+#1 C:\wamp\www\yii1\framework\web\helpers\CHtml.php(2728): CActiveRecord->__get('areas')
+#2 C:\wamp\www\yii1\framework\web\helpers\CHtml.php(1981): CHtml::resolveValue(Object(Stations), 'areas')
+#3 C:\wamp\www\yii1\framework\web\widgets\CActiveForm.php(914): CHtml::activeDropDownList(Object(Stations), 'areas', Array, Array)
+#4 C:\wamp\www\quantislabs\protected\views\stations\_form.php(32): CActiveForm->dropDownList(Object(Stations), 'areas', Array, Array)
+#5 C:\wamp\www\yii1\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\qua...')
+#6 C:\wamp\www\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\qua...', Array, true)
+#7 C:\wamp\www\yii1\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\qua...', Array, true)
+#8 C:\wamp\www\quantislabs\protected\views\stations\update.php(21): CController->renderPartial('_form', Array)
+#9 C:\wamp\www\yii1\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\qua...')
+#10 C:\wamp\www\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\qua...', Array, true)
+#11 C:\wamp\www\yii1\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\qua...', Array, true)
+#12 C:\wamp\www\yii1\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#13 C:\wamp\www\quantislabs\protected\controllers\StationsController.php(103): CController->render('update', Array)
+#14 [internal function]: StationsController->actionUpdate('102')
+#15 C:\wamp\www\yii1\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StationsController), Array)
+#16 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StationsController), Object(ReflectionMethod), Array)
+#17 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\wamp\www\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp\www\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp\www\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp\www\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp\www\yii1\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('update')
+#26 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('stations/update')
+#27 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#28 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/quantislabs/index.php?r=stations/update&id=102
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=stations/view&id=102
+---
+2015/04/16 20:40:30 [error] [exception.CException] exception 'CException' with message 'Property "Stations.Areas" is not defined.' in C:\wamp\www\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Areas')
+#1 C:\wamp\www\yii1\framework\web\helpers\CHtml.php(2728): CActiveRecord->__get('Areas')
+#2 C:\wamp\www\yii1\framework\web\helpers\CHtml.php(1981): CHtml::resolveValue(Object(Stations), 'Areas')
+#3 C:\wamp\www\yii1\framework\web\widgets\CActiveForm.php(914): CHtml::activeDropDownList(Object(Stations), 'Areas', Array, Array)
+#4 C:\wamp\www\quantislabs\protected\views\stations\_form.php(32): CActiveForm->dropDownList(Object(Stations), 'Areas', Array, Array)
+#5 C:\wamp\www\yii1\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\qua...')
+#6 C:\wamp\www\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\qua...', Array, true)
+#7 C:\wamp\www\yii1\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\qua...', Array, true)
+#8 C:\wamp\www\quantislabs\protected\views\stations\update.php(21): CController->renderPartial('_form', Array)
+#9 C:\wamp\www\yii1\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\qua...')
+#10 C:\wamp\www\yii1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\qua...', Array, true)
+#11 C:\wamp\www\yii1\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\qua...', Array, true)
+#12 C:\wamp\www\yii1\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#13 C:\wamp\www\quantislabs\protected\controllers\StationsController.php(103): CController->render('update', Array)
+#14 [internal function]: StationsController->actionUpdate('102')
+#15 C:\wamp\www\yii1\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(StationsController), Array)
+#16 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(StationsController), Object(ReflectionMethod), Array)
+#17 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\wamp\www\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp\www\yii1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp\www\yii1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp\www\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp\www\yii1\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('update')
+#26 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('stations/update')
+#27 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#28 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/quantislabs/index.php?r=stations/update&id=102
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=stations/view&id=102
+---
+2015/04/16 20:41:07 [warning] [application] Failed to set unsafe attribute "areas" of "Stations".
+in C:\wamp\www\quantislabs\protected\controllers\StationsController.php (96)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 20:44:29 [warning] [application] Failed to set unsafe attribute "areas" of "Stations".
+in C:\wamp\www\quantislabs\protected\controllers\StationsController.php (96)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 20:44:44 [warning] [application] Failed to set unsafe attribute "areas" of "Stations".
+in C:\wamp\www\quantislabs\protected\controllers\StationsController.php (96)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 20:45:03 [warning] [application] Failed to set unsafe attribute "areas" of "Stations".
+in C:\wamp\www\quantislabs\protected\controllers\StationsController.php (96)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 20:51:25 [warning] [application] Failed to set unsafe attribute "areas" of "Stations".
+in C:\wamp\www\quantislabs\protected\controllers\StationsController.php (96)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 20:53:28 [warning] [application] Failed to set unsafe attribute "stations" of "Areas".
+in C:\wamp\www\quantislabs\protected\controllers\AreasController.php (99)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 20:53:28 [error] [php] Undefined index: Stations (C:\wamp\www\quantislabs\protected\controllers\AreasController.php:101)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\yii1\framework\web\filters\CFilterChain.php(133): AreasController->runAction()
+#3 C:\wamp\www\yii1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\wamp\www\yii1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 C:\wamp\www\yii1\framework\web\filters\CInlineFilter.php(58): AreasController->filterAccessControl()
+#6 C:\wamp\www\yii1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 C:\wamp\www\yii1\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\wamp\www\yii1\framework\web\CController.php(265): AreasController->runActionWithFilters()
+#9 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): AreasController->run()
+#10 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=areas/update&id=1
+in C:\wamp\www\quantislabs\protected\controllers\AreasController.php (101)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 20:53:49 [warning] [application] Failed to set unsafe attribute "stations" of "Areas".
+in C:\wamp\www\quantislabs\protected\controllers\AreasController.php (99)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 21:05:39 [error] [php] Trying to get property of non-object (C:\wamp\www\quantislabs\protected\controllers\SiteController.php:247)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (247)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 21:11:22 [error] [php] Array to string conversion (C:\wamp\www\quantislabs\protected\views\site\stat.php:1)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(256): SiteController->render()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+in C:\wamp\www\quantislabs\protected\views\site\stat.php (1)
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (256)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 21:11:35 [error] [php] Array to string conversion (C:\wamp\www\quantislabs\protected\views\site\stat.php:1)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(256): SiteController->render()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+in C:\wamp\www\quantislabs\protected\views\site\stat.php (1)
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (256)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 21:11:35 [error] [php] Array to string conversion (C:\wamp\www\quantislabs\protected\views\site\stat.php:1)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(256): SiteController->render()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+in C:\wamp\www\quantislabs\protected\views\site\stat.php (1)
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (256)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 21:11:57 [error] [exception.CException] exception 'CException' with message 'Stations and its behaviors do not have a method or closure named "get".' in C:\wamp\www\yii1\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\ar\CActiveRecord.php(227): CComponent->__call('get', Array)
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(251): CActiveRecord->__call('get', Array)
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(251): Stations->get('id')
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('stat')
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/stat')
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=stations
+---
+2015/04/16 21:12:25 [error] [exception.CException] exception 'CException' with message 'Stations and its behaviors do not have a method or closure named "getid".' in C:\wamp\www\yii1\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\ar\CActiveRecord.php(227): CComponent->__call('getid', Array)
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(251): CActiveRecord->__call('getid', Array)
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(251): Stations->getid()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('stat')
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/stat')
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=stations
+---
+2015/04/16 21:12:35 [error] [exception.CException] exception 'CException' with message 'Stations and its behaviors do not have a method or closure named "getPk".' in C:\wamp\www\yii1\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\ar\CActiveRecord.php(227): CComponent->__call('getPk', Array)
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(251): CActiveRecord->__call('getPk', Array)
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(251): Stations->getPk()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('stat')
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/stat')
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=stations
+---
+2015/04/16 21:12:36 [error] [exception.CException] exception 'CException' with message 'Stations and its behaviors do not have a method or closure named "getPk".' in C:\wamp\www\yii1\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\ar\CActiveRecord.php(227): CComponent->__call('getPk', Array)
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(251): CActiveRecord->__call('getPk', Array)
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(251): Stations->getPk()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('stat')
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/stat')
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=stations
+---
+2015/04/16 21:14:53 [error] [exception.CException] exception 'CException' with message 'Stations and its behaviors do not have a method or closure named "get".' in C:\wamp\www\yii1\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\ar\CActiveRecord.php(227): CComponent->__call('get', Array)
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(251): CActiveRecord->__call('get', Array)
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(251): Stations->get('pk')
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('stat')
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/stat')
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=stations
+---
+2015/04/16 21:15:06 [error] [exception.CException] exception 'CException' with message 'Property "Stations.pk" is not defined.' in C:\wamp\www\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('pk')
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(251): CActiveRecord->__get('pk')
+#2 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#3 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('stat')
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/stat')
+#8 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=stations
+---
+2015/04/16 21:15:13 [error] [exception.CException] exception 'CException' with message 'Property "Stations._pk" is not defined.' in C:\wamp\www\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('_pk')
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(251): CActiveRecord->__get('_pk')
+#2 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#3 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('stat')
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/stat')
+#8 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=stations
+---
+2015/04/16 21:15:22 [error] [exception.CException] exception 'CException' with message 'Property "Stations.Pk" is not defined.' in C:\wamp\www\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Pk')
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(251): CActiveRecord->__get('Pk')
+#2 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#3 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('stat')
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/stat')
+#8 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=stations
+---
+2015/04/16 21:15:30 [error] [php] Array to string conversion (C:\wamp\www\quantislabs\protected\views\site\stat.php:1)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(256): SiteController->render()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+in C:\wamp\www\quantislabs\protected\views\site\stat.php (1)
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (256)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 21:15:30 [error] [php] Array to string conversion (C:\wamp\www\quantislabs\protected\views\site\stat.php:1)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(256): SiteController->render()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+in C:\wamp\www\quantislabs\protected\views\site\stat.php (1)
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (256)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 21:15:55 [error] [exception.CException] exception 'CException' with message 'Property "Stations._pk" is not defined.' in C:\wamp\www\yii1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('_pk')
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(251): CActiveRecord->__get('_pk')
+#2 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#3 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('stat')
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/stat')
+#8 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=stations
+---
+2015/04/16 21:16:08 [error] [php] Array to string conversion (C:\wamp\www\quantislabs\protected\views\site\stat.php:1)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(256): SiteController->render()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+in C:\wamp\www\quantislabs\protected\views\site\stat.php (1)
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (256)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 21:16:09 [error] [php] Array to string conversion (C:\wamp\www\quantislabs\protected\views\site\stat.php:1)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(256): SiteController->render()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+in C:\wamp\www\quantislabs\protected\views\site\stat.php (1)
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (256)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 21:17:13 [error] [php] Array to string conversion (C:\wamp\www\quantislabs\protected\views\site\stat.php:1)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(256): SiteController->render()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+in C:\wamp\www\quantislabs\protected\views\site\stat.php (1)
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (256)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 21:17:15 [error] [php] Array to string conversion (C:\wamp\www\quantislabs\protected\views\site\stat.php:1)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(256): SiteController->render()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+in C:\wamp\www\quantislabs\protected\views\site\stat.php (1)
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (256)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 21:24:57 [error] [exception.CException] exception 'CException' with message 'CDbCommand and its behaviors do not have a method or closure named "fetchArray".' in C:\wamp\www\yii1\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(262): CComponent->__call('fetchArray', Array)
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(262): CDbCommand->fetchArray()
+#2 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#3 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('stat')
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/stat')
+#8 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=stations
+---
+2015/04/16 21:25:08 [error] [exception.CException] exception 'CException' with message 'CDbCommand and its behaviors do not have a method or closure named "fetch".' in C:\wamp\www\yii1\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(262): CComponent->__call('fetch', Array)
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(262): CDbCommand->fetch()
+#2 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#3 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('stat')
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/stat')
+#8 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=stations
+---
+2015/04/16 21:50:37 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHE' at line 1. The SQL statement executed was: 
+					SELECT AVG(temperature) AS avg_temp, MONTH(FROM_UNIXTIME(date)) as measurement_month, DAY(FROM_UNIXTIME(date)) as measurement_day, DATETIME(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHERE stationid = :stationid
+					GROUP BY measurement_month, measurement_day
+				.
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (264)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 21:50:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHE' at line 1. The SQL statement executed was: 
+					SELECT AVG(temperature) AS avg_temp, MONTH(FROM_UNIXTIME(date)) as measurement_month, DAY(FROM_UNIXTIME(date)) as measurement_day, DATETIME(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHERE stationid = :stationid
+					GROUP BY measurement_month, measurement_day
+				' in C:\wamp\www\yii1\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(264): CDbCommand->queryAll()
+#2 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#3 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('stat')
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/stat')
+#8 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=stations
+---
+2015/04/16 21:51:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHE' at line 1. The SQL statement executed was: 
+					SELECT AVG(temperature) AS avg_temp, MONTH(FROM_UNIXTIME(date)) as measurement_month, FROM_UNIXTIME(date, '%Y-%m-%d %H:%i:%s') as measurement_day, DATETIME(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHERE stationid = :stationid
+					GROUP BY measurement_month, measurement_day
+				.
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (264)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 21:51:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHE' at line 1. The SQL statement executed was: 
+					SELECT AVG(temperature) AS avg_temp, MONTH(FROM_UNIXTIME(date)) as measurement_month, FROM_UNIXTIME(date, '%Y-%m-%d %H:%i:%s') as measurement_day, DATETIME(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHERE stationid = :stationid
+					GROUP BY measurement_month, measurement_day
+				' in C:\wamp\www\yii1\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(264): CDbCommand->queryAll()
+#2 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#3 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('stat')
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/stat')
+#8 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=stations
+---
+2015/04/16 21:53:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHE' at line 1. The SQL statement executed was: 
+					SELECT AVG(temperature) AS avg_temp, MONTH(FROM_UNIXTIME(date)) as measurement_month, FROM_UNIXTIME(date) as measurement_day, DATETIME(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHERE stationid = :stationid
+					GROUP BY measurement_month, measurement_day
+				.
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (264)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 21:53:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHE' at line 1. The SQL statement executed was: 
+					SELECT AVG(temperature) AS avg_temp, MONTH(FROM_UNIXTIME(date)) as measurement_month, FROM_UNIXTIME(date) as measurement_day, DATETIME(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHERE stationid = :stationid
+					GROUP BY measurement_month, measurement_day
+				' in C:\wamp\www\yii1\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(264): CDbCommand->queryAll()
+#2 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#3 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('stat')
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/stat')
+#8 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=stations
+---
+2015/04/16 21:53:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHE' at line 1. The SQL statement executed was: 
+					SELECT AVG(temperature) AS avg_temp, MONTH(FROM_UNIXTIME(date)) as measurement_month, FROM_UNIXTIME(date) as measurement_day, DATETIME(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHERE stationid = :stationid
+					GROUP BY measurement_month, measurement_day
+				.
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (264)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 21:53:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHE' at line 1. The SQL statement executed was: 
+					SELECT AVG(temperature) AS avg_temp, MONTH(FROM_UNIXTIME(date)) as measurement_month, FROM_UNIXTIME(date) as measurement_day, DATETIME(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHERE stationid = :stationid
+					GROUP BY measurement_month, measurement_day
+				' in C:\wamp\www\yii1\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(264): CDbCommand->queryAll()
+#2 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#3 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('stat')
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/stat')
+#8 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=stations
+---
+2015/04/16 21:53:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHE' at line 1. The SQL statement executed was: 
+					SELECT AVG(temperature) AS avg_temp, MONTH(FROM_UNIXTIME(date)) as measurement_month, FROM_UNIXTIME(date) as measurement_day, DATETIME(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHERE stationid = :stationid
+					GROUP BY measurement_month, measurement_day
+				.
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (264)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 21:53:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHE' at line 1. The SQL statement executed was: 
+					SELECT AVG(temperature) AS avg_temp, MONTH(FROM_UNIXTIME(date)) as measurement_month, FROM_UNIXTIME(date) as measurement_day, DATETIME(FROM_UNIXTIME(date)) as measurement_date
+					FROM tbl_measurements_hr
+					WHERE stationid = :stationid
+					GROUP BY measurement_month, measurement_day
+				' in C:\wamp\www\yii1\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\yii1\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(264): CDbCommand->queryAll()
+#2 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#3 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): CController->run('stat')
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/stat')
+#8 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\wamp\www\quantislabs\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+HTTP_REFERER=http://localhost:90/quantislabs/index.php?r=stations
+---
+2015/04/16 22:09:01 [error] [php] Array to string conversion (C:\wamp\www\quantislabs\protected\views\site\stat.php:13)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(277): SiteController->render()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+in C:\wamp\www\quantislabs\protected\views\site\stat.php (13)
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (277)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 22:09:03 [error] [php] Array to string conversion (C:\wamp\www\quantislabs\protected\views\site\stat.php:13)
+Stack trace:
+#0 C:\wamp\www\yii1\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii1\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\quantislabs\protected\controllers\SiteController.php(277): SiteController->render()
+#3 C:\wamp\www\yii1\framework\web\actions\CInlineAction.php(49): SiteController->actionStat()
+#4 C:\wamp\www\yii1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii1\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii1\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\quantislabs\index.php(13): CWebApplication->run()
+REQUEST_URI=/quantislabs/index.php?r=site/stat
+in C:\wamp\www\quantislabs\protected\views\site\stat.php (13)
+in C:\wamp\www\quantislabs\protected\controllers\SiteController.php (277)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 22:24:32 [warning] [application] Failed to set unsafe attribute "stations" of "Areas".
+in C:\wamp\www\quantislabs\protected\controllers\AreasController.php (99)
+in C:\wamp\www\quantislabs\index.php (13)
+2015/04/16 22:24:59 [warning] [application] Failed to set unsafe attribute "stations" of "Areas".
+in C:\wamp\www\quantislabs\protected\controllers\AreasController.php (99)
+in C:\wamp\www\quantislabs\index.php (13)
